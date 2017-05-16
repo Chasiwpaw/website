@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>New World</title>
+
+		<style type="text/css">
+			canvas {
+				border : 1px solid white;	
+				background-color: white;
+			}
+
+			body {
+				margin: 0 auto;
+				position: relative;
+			}
+
+			.content {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				margin: 0 13%;
+				padding: 15px;
+				background: black;
+				color: white;
+				max-width: 1000px;
+				opacity: 0.6;
+			}
+
+			.btnmenu {
+				position: absolute;
+				width: 100%;
+				margin: 0 13%;
+				padding: 15px;
+				background-color: #004d00;
+				color: white;
+				max-width: 1000px;
+			}
+
+			.btnmenu a {
+				float: left;
+				display: block;
+				text-align: center;
+				font-size: 17px;
+				text-decoration: none;
+				padding: 12px 16px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="btnmenu">
+				<a href="/home">Home</a>
+				<a href="/expertise">Expertise</a>
+				<a href="/contact">Contact</a>
+				<a href="/about">About</a>
+				<br>
+				<div class="content">
+			
+				</div>
+		</div>
+
+		<canvas></canvas>
+		<script src = "canvas.js"></script>
+	</body>
+</html>
